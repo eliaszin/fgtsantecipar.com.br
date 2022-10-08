@@ -1,0 +1,159 @@
+/* ---------- configurações básicas ---------- */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+
+    color: #222222;
+}
+
+img {
+    display: block;
+    margin: 1.8rem auto;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* ---------- tipografia ---------- */
+
+h1 {
+    margin: 1.8rem 0;
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+h2 { 
+    margin: 3.6rem 0;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+h3 {
+    margin: 1.8rem 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+p {
+    margin: 1.8rem 0;
+}
+
+/* ---------- main ---------- */
+
+main > div > div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.8rem;
+}
+
+/* cores */
+
+.blue {
+    color: #0000E0;
+}
+
+.gray-bg {
+    background-color: #F4F5F7;
+}
+
+/* botões */
+
+a.btn {
+    max-width: 50%;
+    margin: 1.8rem auto;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+    background: #0000F5;
+
+    border-radius: 15px;
+
+    img {
+        margin: 0 10px 0 0;
+    }
+
+    &:hover {
+        background-color: #0000E0;
+    }
+}
+
+/* div.beneficios */
+
+div.beneficios {
+        margin: 2rem 0;
+        padding: 2rem;
+        background-color: #FFFFFF;
+        border: #EEEEEE;
+        border-radius: 15px;
+}
+
+/* ---------- footer ---------- */
+
+footer > div > div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.8rem;
+
+    text-align: center;
+
+    hr {
+        max-width: 50%;
+        margin: 0 auto 4.8rem auto;
+        border: 2px solid #EEEEEE;
+        border-radius: 15px;
+    }
+
+    a {
+        display: block;
+        margin: 1.8rem 0;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: #222222;
+    }
+
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+/* tricks */
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.t-center {
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    /* botões */
+
+    a.btn { 
+        max-width: 100% !important;
+    }
+}
